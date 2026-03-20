@@ -22,7 +22,7 @@ body {
     justify-content:center;
     position: absolute;
     top: 0;
-    z-index: 99999;
+    z-index: 9999999;
 }
 
 :root {
@@ -46,8 +46,8 @@ header {
     position: relative;
     z-index: 10;
     padding-inline: 20px;
-    margin-top: 40px;
-    background-image: linear-gradient(to bottom, #000, #0000);
+    /* background-image: linear-gradient(to bottom, #000, #0000); */
+    text-shadow: 0px 5px 5px black;
 }
 
 header .logo img {
@@ -92,12 +92,15 @@ header nav ul li.active {
 .bob {
     font-size: clamp(1rem, 2vw, 2rem);
     padding: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
     opacity: 0;
     position: absolute;
     text-align: center;
     font-weight: 700;
     font-family: "Frijole", system-ui;
     color: #ffecd1;
+    text-shadow: 0px 0px 5px black;
 }
 
 main {
@@ -152,11 +155,13 @@ main::after {
 
 .banner .title :not(.little-title) {
     text-align: center;
-    font-size: clamp(2.5rem, 10vw, 5rem);
+    font-size: 9rem;
     text-transform: uppercase;
     font-weight: 700;
     font-family: "Frijole", system-ui;
-    color: #ffecd1;
+    color: #fff1de;
+    rotate: -2deg;
+    text-shadow: 0px 5px 12px black;
 }
 
 .banner .title p {
@@ -166,10 +171,12 @@ main::after {
 
 .banner .title .little-title {
     text-align: center;
-    font-size: clamp(1rem, 3vw, 2rem);
+    font-size: 2rem;
     text-transform: uppercase;
     font-weight: 400;
     font-family: "Fredericka the Great", serif;
+    text-shadow: 0px 0px 15px black;
+    
 }
 
 .friend ul img {
@@ -220,51 +227,6 @@ menu {
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
-.frame-t {
-    width: 100%;
-    height: 40px;
-    position: fixed;
-    z-index: 99999;
-    background-color: #602a00;
-    color: #602a00;
-    top: 0;
-    border-bottom: 10px solid #361800;
-}
-
-.frame-b {
-    width: 100%;
-    height: 40px;
-    position: fixed;
-    z-index: 99999;
-    background-color: #602a00;
-    color: #602a00;
-    bottom: 0;
-    border-bottom: 10px solid #361800;
-    /* box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px 20px; */
-}
-
-.frame-r {
-    width: 40px;
-    height: 100%;
-    position: fixed;
-    z-index: 99999;
-    background-color: #602a00;
-    color: #602a00;
-    bottom: 0;
-    right: 0;
-}
-
-.frame-l {
-    width: 40px;
-    height: 100%;
-    position: fixed;
-    z-index: 99999;
-    background-color: #602a00;
-    color: #602a00;
-    bottom: 0;
-    left: 0;
-}
-
 menu:active {
     font-weight: 900;
     font-size: 20px;
@@ -304,6 +266,13 @@ menu:active {
         transform: translateX(-800px);
     }
 
+    #sam {
+        transform: translate(15%, 10%) scale(0.7);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+
     header nav {
         display: none;
     } 
@@ -328,22 +297,6 @@ menu:active {
 
     .img-border {
         display: none;
-    }
-
-    .frame-b {
-        height: 20px;
-    }
-
-    .frame-t {
-        height: 20px;
-    }
-
-    .frame-r {
-        width: 20px;
-    }
-
-    .frame-l {
-        width: 20px;
     }
     
 }

@@ -25,8 +25,11 @@ function setAnimationScroll () {
     });
 
     runAnimation.add([
-        gsap.to("#dark1st", 2, {
-            scale: 1.1
+        gsap.to("#sam", 10, {
+            scale: 1.4,
+            x: -300,
+            y: 100,
+            opacity: 0
         })
     ])
     .add([
