@@ -153,30 +153,9 @@ main::after {
     transform: translateY(-120px);
 }
 
-.banner .title :not(.little-title) {
-    text-align: center;
-    font-size: 9rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-family: "Frijole", system-ui;
-    color: #fff1de;
-    rotate: -2deg;
-    text-shadow: 0px 5px 12px black;
-}
-
 .banner .title p {
     margin: 0;
     padding: 0;
-}
-
-.banner .title .little-title {
-    text-align: center;
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-family: "Fredericka the Great", serif;
-    text-shadow: 0px 0px 15px black;
-    
 }
 
 .friend ul img {
