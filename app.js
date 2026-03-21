@@ -58,3 +58,24 @@ function doneLoading () {
     const load = document.getElementById("load");
     load.style.display = "none";
 }
+
+const menubtn = document.getElementById("menu");
+
+menubtn.addEventListener("click", function(event) {
+    event.stopPropagation();
+    menubtn.innerHTML = `
+        <ul class="bounce-animate>
+            <li class="active">Home</li>
+            <li><a href="./events.html">Events</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    `;
+    menubtn.style.borderRadius = "20px"
+});
+
+window.addEventListener("click", function(event) {
+    if (!menubtn.contains(event.target)) {
+        menubtn.innerHTML = "Menu"; 
+    }
+    menubtn.style.borderRadius = "50px"
+});

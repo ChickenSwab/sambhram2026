@@ -33,16 +33,34 @@ body {
 
 .loadimg {
     width: 10%;
-    -webkit-animation: rotating 2s linear infinite;
+    animation: rotating 2s linear infinite;
 }
 
-@-webkit-keyframes rotating {
+@keyframes rotating {
     from{
         -webkit-transform: rotate(0deg);
     }
     to{
         -webkit-transform: rotate(360deg);
     }
+}
+
+footer {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    z-index: 9999999;
+    background-color: #000;
+}
+
+.foot {
+    padding: 50px;
+    flex-grow: 1;
+    font-size: 2.5vh;
+}
+
+footer img {
+    width: 100%;
 }
 
 :root {
@@ -107,6 +125,29 @@ header nav ul li.active {
     padding: 20px;
     display: grid;
     grid-template-rows: 10vh 40vh 20vh;
+}
+
+#menu {
+    border-radius: 50px; 
+    transition: border-radius 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), 
+                background-color 0.3s ease;
+}
+
+#menu.is-open {
+    border-radius: 15px;
+    background-color: #ffecd1;
+}
+
+@keyframes bounceIn {
+    0% { transform: scale(0.5); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.bounce-animate {
+    animation: bounceIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .bob {
@@ -316,6 +357,15 @@ menu:active {
     .load {
         font-size: 3.5vh;
         text-align: center;
+    }
+
+    footer {
+        position: relative;
+    }
+
+    .foot {
+        text-align: center;
+        font-size: 2vh;
     }
 
 }
