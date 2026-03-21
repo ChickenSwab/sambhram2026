@@ -70,12 +70,12 @@ menubtn.addEventListener("click", function(event) {
             <li><a href="#">Contact Us</a></li>
         </ul>
     `;
-    menubtn.style.borderRadius = "20px"
+    menubtn.classList.add("is-open");
 });
 
 window.addEventListener("click", function(event) {
     if (!menubtn.contains(event.target)) {
         menubtn.innerHTML = "Menu"; 
     }
-    menubtn.style.borderRadius = "50px"
+    menubtn.classList.remove("is-open");
 });
