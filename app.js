@@ -101,6 +101,7 @@ scrlckevent.addEventListener("wheel", (evt) => {
             behavior: "smooth", 
             block: "start" 
         });
+        inViewFlag = true;
     }
 
     if (evt.deltaY > 0 && isAtEnd) {
