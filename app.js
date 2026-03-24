@@ -13,6 +13,7 @@ function loadSVG () {
 loadSVG();
 
 function setAnimationScroll () {
+    var iOS = /(iPad|iPhone|iPod)/g.test(navigator.userAgent);
     gsap.registerPlugin(ScrollTrigger);
     let runAnimation = gsap.timeline({
         scrollTrigger: {
@@ -23,35 +24,47 @@ function setAnimationScroll () {
             pin: true
         }
     });
-
-    runAnimation.add([
-        gsap.to("#sam", 10, {
-            scale: 1.4,
-            x: -300,
-            y: 100,
-            opacity: 0
-        })
-    ])
-    .add([
-        gsap.to("#tree", 100, {
-            x: 200,
-            y: 200
-        }),
-        gsap.to("#vangoh", 100, {
-            x: -300
-        }),
-        gsap.to("#musicdisk", 100, {
-            rotate: 90,
-        }),
-        gsap.to("#piano", 100, {
-            x: -100,
-            y: 300
-        }),
-        gsap.to("#bob", 20, {
-            opacity: 10,
-            y: -700
-        })
-    ]);
+    
+    if (iOS) {
+        runAnimation.add([
+            gsap.to("#sam", 10, {
+                opacity: 0
+            }),
+            gsap.to("#bob", 20, {
+                opacity: 10,
+                y: -700
+            })
+        ])
+    } else {
+        runAnimation.add([
+            gsap.to("#sam", 10, {
+                scale: 1.4,
+                x: -300,
+                y: 100,
+                opacity: 0
+            })
+        ])
+        .add([
+            gsap.to("#tree", 100, {
+                x: 200,
+                y: 200
+            }),
+            gsap.to("#vangoh", 100, {
+                x: -300
+            }),
+            gsap.to("#musicdisk", 100, {
+                rotate: 90,
+            }),
+            gsap.to("#piano", 100, {
+                x: -100,
+                y: 300
+            }),
+            gsap.to("#bob", 20, {
+                opacity: 10,
+                y: -700
+            })
+        ]);
+    }
 }
 
 function doneLoading () {
