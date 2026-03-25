@@ -537,6 +537,10 @@ menu {
         font-size: 2vh;
     }
 
+    .events-grid img {
+        max-height: 50vh;
+    }
+
 }
 #bg_city {
     width: 100%;
