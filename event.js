@@ -21,7 +21,9 @@ window.addEventListener("click", function(event) {
 
 var cards = [
     { name: "Dance", info: "Dance Dance bro danceee yeey", img: "try" },
-    { name: "Bob sings", info: "Singer can sing like a singing silkman as he is a singer", img: "" },
+    { name: "Bob sings", info: "Singer can sing like a singing silkman as he is a singer", img: "try" },
+    { name: "Chiga", info: "Brothers of the flame can majestry ", img: "try" },
+    { name: "Bob sings", info: "Singer can sing like a singing silkman as he is a singer", img: "try" },
 ];
 
 var grid = document.getElementById("grid");
