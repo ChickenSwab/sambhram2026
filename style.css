@@ -595,6 +595,7 @@ menu {
 
     .bob {
         font-size: 1.5em;
+        scale: 1;
     } 
 
     .abt {
