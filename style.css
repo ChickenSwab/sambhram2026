@@ -351,6 +351,41 @@ a:hover {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
+.view-all {
+    min-width: 20vw;
+    --size: 80px; /* control the size */
+  --color: #ffdfaf;
+
+  --l: var(--color) 20%, #00000000 0;
+  --bg: 35%, #edbc72 0 45%, var(--color) 0;
+  background: linear-gradient(
+      45deg,
+      var(--l) 45%,
+      var(--color) 0 70%,
+      #db777700 0
+    ),
+    linear-gradient(-45deg, var(--l) var(--bg) 70%, #0000 0),
+    linear-gradient(45deg, var(--color) var(--bg));
+  background-size: var(--size) var(--size);
+    display: flex;             
+    align-items: center; 
+    justify-content: center;
+    border: rgb(0, 0, 0) solid 10px ;
+    border-radius: 20px;
+    padding: 80px;
+    font-size: 50px;
+    font-weight: 900;
+    transition: all 300ms ease-in;
+}
+
+.view-all:hover ~ .events-grid img{
+    opacity: 0;
+}
+
+.view-all:hover {
+    transform: scale(1.1);
+}
+
 .card:hover {
     scale: 1.01;
 }
@@ -359,7 +394,7 @@ a:hover {
     height: auto;
     width: 20vw;
     padding: 30px;
-    background: radial-gradient(125% 125% at 10% 10%, #080303 40%, rgba(13, 13, 13, 0.903) 100%);
+    background: radial-gradient(125% 125% at 10% 10%, #080303 10%, rgba(13, 13, 13, 0.636) 100%);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.36);
@@ -655,6 +690,10 @@ menu {
 
     .loadimg {
         width: 50%;
+    }
+
+    .instructions p {
+        font-size: 15px;
     }
 
 }
