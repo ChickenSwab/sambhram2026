@@ -108,37 +108,37 @@ window.addEventListener("click", function(event) {
     menubtn.classList.remove("is-open");
 });
 
-const scrlckevent = document.getElementById("scroll-lock-event");
-let inViewFlag = true;
+// const scrlckevent = document.getElementById("scroll-lock-event");
+// let inViewFlag = true;
 
-scrlckevent.addEventListener("wheel", (evt) => {
+// scrlckevent.addEventListener("wheel", (evt) => {
 
-    const isAtStart = scrlckevent.scrollLeft <= 0;
-    const isAtEnd = scrlckevent.scrollLeft + scrlckevent.offsetWidth >= scrlckevent.scrollWidth-1;
+//     const isAtStart = scrlckevent.scrollLeft <= 0;
+//     const isAtEnd = scrlckevent.scrollLeft + scrlckevent.offsetWidth >= scrlckevent.scrollWidth-1;
 
-    if (inViewFlag) {
-        document.getElementById("events").scrollIntoView({ 
-            behavior: "smooth", 
-            block: "start" 
-        });
-        inViewFlag = false;
-    }
+//     if (inViewFlag) {
+//         document.getElementById("events").scrollIntoView({ 
+//             behavior: "smooth", 
+//             block: "start" 
+//         });
+//         inViewFlag = false;
+//     }
 
-    if (evt.deltaY < 0 && isAtStart) {
-        document.getElementById("bob").scrollIntoView({ 
-            behavior: "smooth", 
-            block: "start" 
-        });
-        inViewFlag = true;
-    }
+//     if (evt.deltaY < 0 && isAtStart) {
+//         document.getElementById("bob").scrollIntoView({ 
+//             behavior: "smooth", 
+//             block: "start" 
+//         });
+//         inViewFlag = true;
+//     }
 
-    if (evt.deltaY > 0 && isAtEnd) {
-        document.getElementById("spons").scrollIntoView({ 
-            behavior: "smooth", 
-            block: "start" 
-        });
-    }
+//     if (evt.deltaY > 0 && isAtEnd) {
+//         document.getElementById("spons").scrollIntoView({ 
+//             behavior: "smooth", 
+//             block: "start" 
+//         });
+//     }
 
-    evt.preventDefault();
-    scrlckevent.scrollLeft += evt.deltaY;
-}, { passive: false });
+//     evt.preventDefault();
+//     scrlckevent.scrollLeft += evt.deltaY;
+// }, { passive: false });
