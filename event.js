@@ -95,6 +95,10 @@ var cards = [
     img: "./img/squidgames.png",
   },
   { id: 20, name: "Among Us", info: "Among Us", img: "./img/amongus.png" },
+  { id: 21, name: "Dhwani", info:"Classical Solo singing", img: "./img/dhwani.png"},
+  { id: 22, name: "Tinitique", info:"sketching or face canvas ", img: "./img/tinitique.png"},
+  { id: 23, name: "Roots Unscripted", info:"Improv", img: "./img/rootsuns.png"},
+  { id: 24, name: "Group Fashion Walk", info: "", img: "./img/fashionwalk.png" }
 ];
 
 var popDesc = [
@@ -146,6 +150,116 @@ var popDesc = [
     Rfee: 1000,
     pool: 10000,
   },
+
+  {
+    id: 13,
+    TnL: "24 April 2026, 12:00 PM - 2:00 PM | Ground Floor",
+    Abt: "Unleash the rhythm within and command the spotlight in our premier one-on-one dance showdown! From deeply emotional, fluid contemporary routines to sharp, lightning-fast commercial combinations, bring your sheer passion to the floor and leave the audience mesmerized. Breathe life into the music across all genres, infusing every leap, lock, and transition with your distinct artistic vision. Allow the beat to take over, shattering expectations and telling a powerful story through your physical expression. Duel against top-tier talent to claim the crown as our next great dance visionary in a fierce contest of technique, emotion, and unfiltered skill. Come craft your legacy and leave them breathless.",
+    Si: "• Battle Duration: Each dancer gets 45-60 seconds per round. Number of rounds (prelims, semis, finals) will depend on participation and judges' decision.|• The Lead-Off: A coin toss or bottle spin determines who starts. Turns will alternate in each round.|• Music Selection: The DJ has full control over the music. Dancers must adapt to any genre; no custom tracks allowed.|• Tie-Breaker Protocol: If judges cannot decide, a 'One-More-Round' (30-45 seconds) will be given.|• Judging Authority: All judge decisions are final. Any argument or delay may lead to disqualification.",
+    gi: "• Zero-Contact Policy: Any intentional physical contact (pushing, bumping, grabbing) will result in immediate disqualification.|• The Buffer Zone: Dancers must respect personal space and avoid aggressive or threatening behavior.|• Prohibition of Offensive Gestures: No abusive or disrespectful gestures allowed.|• No Verbal Heckling: No shouting or insulting during the battle.|• Crew Intervention: If friends/crew interfere or crowd the floor, the dancer may be disqualified.|• Post-Battle Conduct: Dancers must show sportsmanship (handshake/nod) after the battle.|• Safety Hazards: No dangerous props or anything that may cause injury or make the floor unsafe.",
+    Rfee: 150,
+    pool: 1500,
+  }, 
+
+  {
+    id: 20,
+    TnL: "23 April 2026, 3:00 PM - 5:00 PM | RVITM",
+    Abt: "Among Us In Real Life (IRL) transforms the popular digital deduction game into an immersive, high-stakes physical experience where players are divided into two secret teams: Crewmates and Impostors. While the Crewmates navigate the venue to complete tangible 'tasks'—like sorting items or solving quick puzzles—the Impostors must blend in, faking their productivity while strategically 'eliminating' players using silent signals or kill cards. The atmosphere stays tense as players constantly watch their backs, trying to finish their objective list before the Impostors outnumber the living crew. The heart of the game lies in the Emergency Meetings, triggered whenever a 'body' is discovered or a meeting is called. During these high-pressure discussions, players must use logic, observation, and social cues to identify the traitors among them, while the Impostors use deception to shift the blame onto others. To keep the game fair and fun, strict rules of silence are enforced for 'ghosts' (eliminated players), and a central moderator often acts as the final judge. It’s a thrilling test of teamwork, survival, and your ability to spot a lie in real-time",
+    Si: `• 1. The Moderator’s Word
+    |* The "Ref" is Law: The Game Lead (Moderator) has the final say on all disputes. No appeals, no arguments. If a call is made, the game continues immediately.
+    |* No Meta-Gaming: Do not use outside information (e.g., "I heard his shoes squeak in the kitchen"). Only discuss in-game actions.
+    ||• 2. The Kill Protocol (The "Card" System)
+    |* The Silent Kill: To eliminate a Crewmate, the Impostor must secretly show them a Red Kill Card.
+    |* Zero Resistance: If you are shown the card, you are dead. You cannot run away or "dodge" it once the card is visible.
+    |* The Ghost Vow: Once killed, you must sit or lay down exactly where you died. You are strictly forbidden from speaking, gesturing, or making noise until a body is reported.
+    ||• 3. Reporting & Meetings
+    |* Reporting a Body: To report a "dead" player, you must shout "BODY" loudly. All players must immediately stop moving and go to the designated Meeting Area.
+    |* Emergency Meetings: Each player gets one Emergency Meeting button press per game. Use it wisely.
+    |* Meeting Conduct: Only one person speaks at a time. Shouting over others results in an immediate skip of your vote.
+    ||• 4. Voting & Ejection
+    |* Evidence Required: You must provide a reason for your suspicion. "Just a vibe" is not enough to force an ejection.
+    |* The Final Vote: On the count of three, everyone points at their suspect. The person with the most votes is ejected and becomes a Ghost.
+    |* Tie Vote: In the event of a tie, no one is ejected, and the game resumes.
+    ||• 5. Task Integrity
+    |* Do Not Fake Tasks: Crewmates must actually complete their assigned tasks (e.g., sorting items, filling water).
+    |* Ghost Tasks: Dead Crewmates must still complete their tasks to help the team win. They must do so in total silence.
+    ||• 6. Safety & Boundaries
+    |* No Physical Contact: No pushing, grabbing, or tackling. The game is won through stealth and logic, not athletics.
+    |* Off-Limit Zones: Stay within the agreed boundaries. Entering a "Dead Zone" (like a bathroom) results in an automatic ejection. 
+    `,
+    gi: "N/A",
+    Rfee: 100,
+    pool: 3000,
+  },
+  
+  {
+    id: 15,
+    TnL: "24 April 2026, 9:30 A, - 12:00 PM | Auditorium",
+    Abt: "Beatstorm is a live music showcase at Sambhram ’26 that brings together college bands for an evening centered around performance, creativity, and sound. Featuring a wide range of genres including rock, indie, metal, and fusion, the event highlights each band’s unique style, musicality, and stage presence. It is designed as a space where artists can present both original compositions and reinterpretations, creating a diverse and engaging listening experience. Set against a dynamic stage and a lively audience, Beatstorm focuses on the essence of live performance — energy, coordination, and connection. The event offers emerging musicians an opportunity to perform in a professional setup, interact with fellow artists, and leave a lasting impression through their music.",
+    Si: "• Team Size: 6-12 Members|• Participants must bring their own instruments.|• A 5-piece drum kit will be provided by the host college.|• In case of any special technical requirements, the event coordinators can be contacted.|• Open for all colleges, professional and semi-professional bands, but at least one member of the team must be currently pursuing their graduation|• Each participant is allowed to represent only one band.|• Songs with appropriate lyrics are to be chosen, and the lyrics sheet must be submitted prior to the performance for OCs.|• Time limit for the performance is 15 minutes, including setup, soundcheck, and clearance|• Only Indian languages and English songs can be performed.|• Originals will be given more weightage.|• Processed music and backing tracks are strictly not allowed.",
+    gi: "• The competition will be held in 1 round only.|• In case of special technical requirements for the instruments, event coordinators must be informed in advance.|• Participants are requested to report 2 hours before the commencement of the event.|• Judges’ decisions will be considered final and binding.",
+    Rfee: 1500,
+    pool: 9000,
+  },
+
+  {
+    id: 9,
+    TnL: "24 April 2026, 09:30 AM - 02:00 PM | MCA Seminar Hall",
+    Abt: "Gear up for the ultimate BGMI showdown! Step into the battlegrounds where every move, shot, and strategy counts. This tournament isn’t just about survival—it’s about proving your dominance, outsmarting rivals, and leading your squad to glory. From clutch plays to nail-biting finishes, the adrenaline never stops. Do you have what it takes to rise above the rest and be crowned the true Finisher?",
+    Si: `• Each team must have 4 players, including one team leader
+responsible for coordination.|• The e-game shall be conducted in hybrid mode, allowing
+participation both online and offline simultaneously.|• If we get less than 25 teams - 1 full room of teams - 4 matches
+(Erangel -> Miramar -> Rondo -> Erangel)|• If we get more than 25 - split in 2 groups - 3 matches league stage -
+Top 16 teams to finals of 4 matches
+(Erangel -> Miramar -> Rondo) (league stage) (Erangel ->
+Miramar -> Rondo -> Erangel) (finals)|• The top 8 teams with the highest cumulative points from both groups
+will proceed to the finals.|• The team with the highest cumulative points after finals will be
+declared the winner.|• The teams must enter the rooms on their designated team slot
+provided by the organizers.|• Emulators, tablets, and iPads are not allowed. Only Android and
+iOS phones are permitted.|• Teams must carry their own required equipment (power banks,
+chargers, etc.)|• Screenshot Submission: After completing each match, teams must
+share a screenshot of the total score with the coordinator||| PointSystem: |* 1st Place -> 10 points
+|* 2nd Place-> 6 points
+|* 3rd Place-> 5 points
+|* 4th Place-> 4 points
+|* 5th Place-> 3 points
+|* 6th Place-> 2 points
+|* 7th Place-> 1 point
+
+|* 8th Place-> 1 point
+|* 9th Place-> 0 points
+|* Each kill =1 point`,
+    gi: "• Check-In: Teams must check in at the venue 15 minutes before the event.|• Registration details will be verified.|• Standard rules apply.|• Scoring: Points will be awarded based on placement and kills.|• Final rankings will be decided on cumulative points.|• Tiebreakers: | 1.The team with more Chicken Dinners ranks higher. | 2.If still tied, the team with more placement points ranks higher. | 3.If still tied, a Team Deathmatch will decide the winner.",
+    Rfee: 400,
+    pool: 4000,
+  },
+
+  {
+    id: 2,
+    TnL:"23 April 2026, 3:00 PM - 5:00 PM | MCA Seminal Hall",
+    Abt: "Step into a world of tradition and grace as skilled dancers bring the rich legacy of Indian classical dance to life. From the precise footwork of Bharatanatyam to the rhythmic spins of Kathak and the expressive storytelling of Odissi, each performance will transport you through centuries of cultural heritage. Witness the elegance of flowing movements, intricate hand gestures, and captivating expressions, all set to the soulful rhythms of classical music. Let the beauty and depth of India’s classical dance forms leave you mesmerised — and if you have the skill and passion, this is your chance to take the stage and shine.",
+    Si: `•No accompanists are allowed.
+|• Songs must be in MP3 format and uploaded to a designated Google Drive folder at least 2 days before the event. The folder link will be shared after registration.
+|• Duration: Maximum of 6 minutes allowed:
+| * 5 minutes – Performance
+| * 1 minute – Set up and clearance time
+|• Performance must be based on any of the 7 Classical Indian Dance Forms:
+| * Bharatanatyam
+| * Kathak
+| * Kuchipudi
+| * Kathakali
+| * Mohiniattam
+| * Manipuri
+| * Odissi
+|• Use of movie songs is strictly prohibited.
+    `,
+    gi: "• Decision of the judges will be final and binding.|• Participants are requested to report 1 hour before the commencement of the event.|• No refunds will be given under any circumstance. ",
+    Rfee: 200,
+    pool: 2500,
+  }
+
+  
+
 ];
 
 var grid = document.getElementById("grid");
