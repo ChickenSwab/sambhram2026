@@ -319,6 +319,85 @@ to participate.
     pool: 9000,
   },
 
+  {
+    id: 6,
+    TnL: "23 April 2026, 12:30 PM - 2:30 PM | Classroom",
+    Abt: `Step into the arena where appetite meets the clock. The Hog-a-
+thon is a high-intensity, solo-survival eating challenge designed
+
+for those with nerves of steel and an iron stomach. In this race
+against time, individuals must conquer a series of food-based
+"boss levels" to prove they have the speed, strategy, and capacity
+to be crowned the Ultimate Glutton.`,
+    Si: `|• Players must report to the venue at least 25–30 minutes
+before their assigned time slot.
+|• Listen carefully to the briefing instructions before
+entering the room.
+|• Do not interfere in another participant’s gameplay.
+|• Any form of cheating or rule violation will result in
+immediate disqualification.`,
+    gi: `• Absolute Compliance:
+All instructions from the Frontman and the Kitchen Guards are
+final. The signal to start must be obeyed instantly, and any eating
+before the whistle or after the timer stops will result in instant
+elimination.
+||• Solo Performance:
+This is a test of individual capacity. No physical contact or
+"sharing" of food is permitted. Any attempt to distract an
+opponent or sabotage their tray will lead to immediate
+disqualification of both parties.
+
+||• No External Tools:
+
+The use of personal utensils, outside beverages, or performance-
+enhancing "tools" (such as private water bottles or smartwatches
+
+to track pace) is strictly prohibited. You may only use what is
+provided at your station.
+||• Elimination (The "Clean Plate" Rule):
+A player is "eliminated" if they fail to finish their portion within
+the allotted time or if they violate the Rejection Protocol
+(vomiting or inability to keep food down). Once eliminated, the
+player must leave the table immediately—their journey to the
+Final Feast ends there.
+||• The "Mouth Empty" Check:
+A round is only considered complete once a player raises their
+hand and demonstrates an empty mouth to a Guard. Swallowing
+must be visible and verified before the clock is officially stopped
+for that individual.`,
+    Rfee: 200,
+    pool: 2000, 
+  },
+
+  {
+    id: 23,
+    TnL: "24 April 2026, 12:30 PM - 2:30 PM | 1St Floor Seminar Hall",
+    Abt: `Attention, college dreamers and daring minds! Step into the spell of Chaos & Cue,
+our improv spectacle where wit meets spontaneity. Gather your crew and dive into
+an evening of unscripted laughter and vibrant scenes, as teams craft comedy from
+the unexpected. From quirky characters to unpredictable twists, every moment
+brims with magic, mischief, and creativity. Don’t just watch, be the spark that
+ignites it. Save the date and let the stage discover you!`,
+    Si: `• Team Requirements:
+    | &nbsp;*&nbsp; Each team must consist of 2-4 participants.
+| &nbsp;*&nbsp; A team leader must be designated for each team. The team leader will
+serve as the point of contact for communication between the organising
+committee and the team.
+| &nbsp;*&nbsp; All team members are required to be present at the venue; remote
+participation is not permitted.
+  ||• Specific Instructions:
+  | &nbsp;*&nbsp; Time Limit: 5 minutes performance + 5 minutes preparation time
+| &nbsp;*&nbsp; No tech requirements are allowed.
+| &nbsp;*&nbsp; No props are allowed.
+| &nbsp;*&nbsp; Act can be presented in Hindi, English and Kannada.`,
+    gi: `• Decision of the judges will be final and binding.
+    |• Participants are requested to report 1 hour before the
+commencement of the event.
+|• No refunds will be given under any circumstance.`,
+    Rfee: 200,
+    pool: 3000,
+  }
+
 ];
 
 var grid = document.getElementById("grid");
