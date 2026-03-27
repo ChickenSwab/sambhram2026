@@ -111,17 +111,26 @@ var popDesc = [
     Rfee: 200,
     pool: 2000,
   },
-  
-  {
-    id: 4,
-    TnL: "23 April 2026, 3:00 PM – 5:00 PM | RVITM, 6th Floor Seminar Hall",
-    Abt: "It's time to claim the mic and let your vocal prowess take center stage in our highly anticipated solo vocal showdown! Whether you plan to bring the house down with a high-octane pop hit or move the room to tears with a breathtaking acoustic melody, we want to see you mesmerize the audience with your authentic flair. We welcome tracks from every genre—this is your blank canvas to paint with your own unique musical signature. Connect deeply with the lyrics, let the beat drive you, and deliver a performance that gives the crowd chills. Battle it out to be crowned this year's top vocal powerhouse in an event where pure talent meets untamed emotion. The stage is set—grab your chance to make history!",
-    Si: "• Time Limit for each performance is limited to 3+1 minutes (3 minutes for singing, 1 minute for setup/transition).|• An accompanist is allowed along with the participant.|• Participants may play their own instruments while singing. Instruments will not be provided by the host college.|• Any special technical requirements for instruments must be communicated to event coordinators in advance.|• Karaoke or backing tracks are allowed, but must be uploaded to the provided Drive link. Participants must also bring a backup on a pen drive.|• The competition will be held in a single round only.",
-    gi: "• The decision of the judges will be final and binding.|• Participants must report 1 hour before the event starts. Latecomers may not be allowed to participate.|• No refunds will be given under any circumstances.",
-    Rfee: 200,
-    pool: 2500,
-  },
 
+  {
+  id: 1,
+  TnL: "23 April 2026, 12:30 PM – 2:30 PM | RVITM, MCA Seminar Hall",
+  Abt: "Immerse yourself in the rhythm of time as our event, Footprints in Time takes you on a journey through movement and expression. From timeless elegance to modern energy, every step captures a story, blending past and present in a dynamic celebration of dance.",
+  Si: "• The total performance duration is 3+1 minutes (3 minutes for performance, 1 minute for setup and clearance).|• Performances must not include sensitive topics such as religion, politics, or social controversies.|• Exceeding the time limit will result in point deductions.|• The use of hazardous props, including sharp objects, flammable materials, or any items that could cause injury, is strictly prohibited.|• Participants must maintain professional conduct both backstage and during the event.|• All participants must show respect towards fellow performers, judges, and event organizers, ensuring a positive and inclusive environment.|• Rule violations may result in immediate disqualification.|• Music tracks for the performance must be submitted at least five days before the event in MP3 format.|• Participants must bring their own costumes, props, and accessories.|• All participants must adhere to the rules set by the organising committee, and any violations may result in penalties or disqualification.|• Accompanists are not permitted; performances must be solo.|• Backdrop requirements: Video backdrops must be in MP4 format; photo backdrops must be in PDF or PPT format; all backdrops must be in landscape mode.|• Any specific lighting requirements must be communicated to the event coordinators in advance.",
+  gi: "• Decision of the judges will be final and binding.|• Participants are requested to report 1 hour before the commencement of the event.|• No refunds will be given under any circumstance.",
+  Rfee: 200,
+  pool: 2500
+},
+  {
+  id: 21,
+  TnL: "23 April 2026, 12:30 PM – 2:30 PM | RVITM, 6th Floor Seminar Hall",
+  Abt: "Step onto the stage and let the beauty of your voice fill the hall in this grand celebration of classical music! Whether you are performing a graceful Mozart aria or a moving piece of Italian art song, this is your chance to show the power of pure, natural singing. Focus on every clear note and every heartfelt phrase as you bring the works of great composers to life with your own unique style. From the quietest whisper to the most soaring melody, your goal is to connect with the audience through your skill and passion. This is more than just a contest; it is a moment to honor tradition and share your talent with the world. Take a deep breath, find your center, and let your music leave a lasting impression on everyone who hears it.",
+  Si: "• Time Limit for each performance is limited to 5+1 minutes (5 minutes for singing, 1 minute for setup/transition).|• Maximum of 2 accompanists are allowed for each participant.|• Songs must be Hindustani or Carnatic and must be in an Indian language with appropriate lyrics.|• Instruments will not be provided by the host college.|• Any special technical requirements for instruments must be communicated to event coordinators in advance.|• Karaoke or backing tracks are allowed, but must be uploaded to the provided Drive link. Participants must also bring a backup on a pen drive.|• Shruti box is allowed for accompaniment during the performance.|• The competition will be held in a single round only.",
+  gi: "• The decision of the judges will be final and binding.|• Participants must report 1 hour before the event starts. Latecomers may not be allowed to participate.|• No refunds will be given under any circumstances.",
+  Rfee: 200,
+  pool: 2500
+},
+  
   {
     id: 5,
     TnL: "23 April 2026, 12:30 PM – 6:30 PM | RVITM, Lab",
@@ -131,7 +140,212 @@ var popDesc = [
     Rfee: 500,
     pool: 5000,
   },
+  {
+  id: 4,
+  TnL: "23 April 2026, 3:00 PM – 5:00 PM | RVITM, 6th Floor Seminar Hall",
+  Abt: "It's time to claim the mic and let your vocal prowess take center stage in our highly anticipated solo vocal showdown! Whether you plan to bring the house down with a high-octane pop hit or move the room to tears with a breathtaking acoustic melody, we want to see you mesmerize the audience with your authentic flair. We welcome tracks from every genre—this is your blank canvas to paint with your own unique musical signature. Connect deeply with the lyrics, let the beat drive you, and deliver a performance that gives the crowd chills. Battle it out to be crowned this year's top vocal powerhouse in an event where pure talent meets untamed emotion. The stage is set—grab your chance to make history!",
+  Si: "• Time Limit for each performance is limited to 3+1 minutes (3 minutes for singing, 1 minute for setup/transition).|• An accompanist is allowed along with the participant.|• Participants may play their own instruments while singing. Instruments will not be provided by the host college.|• Any special technical requirements for instruments must be communicated to event coordinators in advance.|• Karaoke or backing tracks are allowed, but must be uploaded to the provided Drive link. Participants must also bring a backup on a pen drive.|• The competition will be held in a single round only.",
+  gi: "• The decision of the judges will be final and binding.|• Participants must report 1 hour before the event starts. Latecomers may not be allowed to participate.|• No refunds will be given under any circumstances.",
+  Rfee: 200,
+  pool: 2500
+},
 
+  {
+  id: 12,
+  TnL: "24 April 2026, 9:30 AM – 12:00 PM | RVITM, 1st Floor Seminar Hall",
+  Abt: "Step into the spotlight and command the stage with the power of your words in this captivating monologue competition! This event celebrates the art of storytelling, emotion, and dramatic expression through solo performance. Whether you bring to life a powerful character, narrate a gripping story, or express deep emotions through a self-written piece, this is your chance to mesmerize the audience with your voice, expressions, and presence. From intense drama to light-hearted humour, let your performance leave a lasting impact. Channel your creativity, embody your character, and take the audience on an unforgettable journey through your words. Compete for the prestigious title of ultimate performer, where passion, creativity, and expression collide. This is your moment to shine!",
+  Si: "• Time Limit for each performance is limited to 3+2 minutes (3 minutes for performance, 2 minutes for setup/transition).|• The monologue can be original or adapted from any source (movies, plays, literature, etc.).|• Use of minimal props is allowed. Participants must bring their own props if required.|• Background music or sound effects are allowed but must be submitted in advance and brought as backup.|• Offensive, vulgar, or inappropriate content will lead to disqualification.|• Participants must perform solo. No assistance or supporting actors allowed on stage.|• The competition will be conducted in 1 round.",
+  gi: "• The decision of the judges will be final and binding.|• Participants must report 15 minutes before the event starts. Latecomers may not be allowed to participate.|• No refunds will be given under any circumstances.",
+  Rfee: 150,
+  pool: 2000
+},
+
+  {
+  id: 19,
+  TnL: "24 April 2026, 1:00 PM onwards | RVITM, Football Turf/Basketball Court",
+  Abt: "Step into a world where childhood nostalgia meets high-stakes survival. The Squid Game Challenge is an immersive, elimination-based gauntlet that tests your agility, nerves, and strategy. Divided into iconic rounds of play, individuals must navigate a series of traditional games with a modern, competitive twist to emerge as the ultimate survivor.",
+  Si: "• Absolute Compliance: All instructions from the Frontman and the Guards (Circle, Triangle, Square) are final. Failure to follow a command results in instant elimination.|• Solo Performance: While you may be surrounded by other players, no physical pushing or verbal abuse is permitted. Any attempt to sabotage another player will lead to disqualification for both parties.|• No External Tools: Use of mobile phones, smartwatches, or outside tools is strictly prohibited during the trials.|• Elimination: If a player fails a task or is caught moving during a 'Red Light' phase, they will be eliminated and must leave the arena immediately.",
+  gi: "• Players must report to the venue at least 25-30 minutes before their assigned time slot.|• Listen carefully to the briefing instructions before entering the room.|• Do not interfere in another's gameplay. Any form of cheating or rule violation will result in immediate disqualification.",
+  Rfee: 100,
+  pool: 1500
+},
+  
+  {
+    id: 15,
+    TnL: "24 April 2026, 9:30 A, - 12:00 PM | Auditorium",
+    Abt: "Beatstorm is a live music showcase at Sambhram ’26 that brings together college bands for an evening centered around performance, creativity, and sound. Featuring a wide range of genres including rock, indie, metal, and fusion, the event highlights each band’s unique style, musicality, and stage presence. It is designed as a space where artists can present both original compositions and reinterpretations, creating a diverse and engaging listening experience. Set against a dynamic stage and a lively audience, Beatstorm focuses on the essence of live performance — energy, coordination, and connection. The event offers emerging musicians an opportunity to perform in a professional setup, interact with fellow artists, and leave a lasting impression through their music.",
+    Si: "• Team Size: 6-12 Members|• Participants must bring their own instruments.|• A 5-piece drum kit will be provided by the host college.|• In case of any special technical requirements, the event coordinators can be contacted.|• Open for all colleges, professional and semi-professional bands, but at least one member of the team must be currently pursuing their graduation|• Each participant is allowed to represent only one band.|• Songs with appropriate lyrics are to be chosen, and the lyrics sheet must be submitted prior to the performance for OCs.|• Time limit for the performance is 15 minutes, including setup, soundcheck, and clearance|• Only Indian languages and English songs can be performed.|• Originals will be given more weightage.|• Processed music and backing tracks are strictly not allowed.",
+    gi: "• The competition will be held in 1 round only.|• In case of special technical requirements for the instruments, event coordinators must be informed in advance.|• Participants are requested to report 2 hours before the commencement of the event.|• Judges’ decisions will be considered final and binding.",
+    Rfee: 1500,
+    pool: 9000,
+  },
+
+  {
+    id: 9,
+    TnL: "24 April 2026, 09:30 AM - 02:00 PM | MCA Seminar Hall",
+    Abt: "Gear up for the ultimate BGMI showdown! Step into the battlegrounds where every move, shot, and strategy counts. This tournament isn’t just about survival—it’s about proving your dominance, outsmarting rivals, and leading your squad to glory. From clutch plays to nail-biting finishes, the adrenaline never stops. Do you have what it takes to rise above the rest and be crowned the true Finisher?",
+    Si: `• Each team must have 4 players, including one team leader
+responsible for coordination.|• The e-game shall be conducted in hybrid mode, allowing
+participation both online and offline simultaneously.|• If we get less than 25 teams - 1 full room of teams - 4 matches
+(Erangel -> Miramar -> Rondo -> Erangel)|• If we get more than 25 - split in 2 groups - 3 matches league stage -
+Top 16 teams to finals of 4 matches
+(Erangel -> Miramar -> Rondo) (league stage) (Erangel ->
+Miramar -> Rondo -> Erangel) (finals)|• The top 8 teams with the highest cumulative points from both groups
+will proceed to the finals.|• The team with the highest cumulative points after finals will be
+declared the winner.|• The teams must enter the rooms on their designated team slot
+provided by the organizers.|• Emulators, tablets, and iPads are not allowed. Only Android and
+iOS phones are permitted.|• Teams must carry their own required equipment (power banks,
+chargers, etc.)|• Screenshot Submission: After completing each match, teams must
+share a screenshot of the total score with the coordinator||| PointSystem: |&nbsp;*&nbsp; 1st Place -> 10 points
+|&nbsp;*&nbsp; 2nd Place-> 6 points
+|&nbsp;*&nbsp; 3rd Place-> 5 points
+|&nbsp;*&nbsp; 4th Place-> 4 points
+|&nbsp;*&nbsp; 5th Place-> 3 points
+|&nbsp;*&nbsp; 6th Place-> 2 points
+|&nbsp;*&nbsp; 7th Place-> 1 point
+
+|&nbsp;*&nbsp; 8th Place-> 1 point
+|&nbsp;*&nbsp; 9th Place-> 0 points
+|&nbsp;*&nbsp; Each kill =1 point`,
+    gi: "• Check-In: Teams must check in at the venue 15 minutes before the event.|• Registration details will be verified.|• Standard rules apply.|• Scoring: Points will be awarded based on placement and kills.|• Final rankings will be decided on cumulative points.|• Tiebreakers: | 1.The team with more Chicken Dinners ranks higher. | 2.If still tied, the team with more placement points ranks higher. | 3.If still tied, a Team Deathmatch will decide the winner.",
+    Rfee: 400,
+    pool: 4000,
+  },
+
+  {
+    id: 2,
+    TnL:"23 April 2026, 3:00 PM - 5:00 PM | MCA Seminal Hall",
+    Abt: "Step into a world of tradition and grace as skilled dancers bring the rich legacy of Indian classical dance to life. From the precise footwork of Bharatanatyam to the rhythmic spins of Kathak and the expressive storytelling of Odissi, each performance will transport you through centuries of cultural heritage. Witness the elegance of flowing movements, intricate hand gestures, and captivating expressions, all set to the soulful rhythms of classical music. Let the beauty and depth of India’s classical dance forms leave you mesmerised — and if you have the skill and passion, this is your chance to take the stage and shine.",
+    Si: `•No accompanists are allowed.
+|• Songs must be in MP3 format and uploaded to a designated Google Drive folder at least 2 days before the event. The folder link will be shared after registration.
+|• Duration: Maximum of 6 minutes allowed:
+| &nbsp;*&nbsp; 5 minutes – Performance
+| &nbsp;*&nbsp; 1 minute – Set up and clearance time
+|• Performance must be based on any of the 7 Classical Indian Dance Forms:
+| &nbsp;*&nbsp; Bharatanatyam
+| &nbsp;*&nbsp; Kathak
+| &nbsp;*&nbsp; Kuchipudi
+| &nbsp;*&nbsp; Kathakali
+| &nbsp;*&nbsp; Mohiniattam
+| &nbsp;*&nbsp; Manipuri
+| &nbsp;*&nbsp; Odissi
+|• Use of movie songs is strictly prohibited.
+    `,
+    gi: "• Decision of the judges will be final and binding.|• Participants are requested to report 1 hour before the commencement of the event.|• No refunds will be given under any circumstance. ",
+    Rfee: 200,
+    pool: 2500,
+  },
+
+  {
+    id: 22,
+    TnL: "23 April 2026, 3:00 PM - 5:00 PM | Drawing Room",
+    Abt: `Get ready to splash your creativity across the canvas of faces! Our Face Painting event invites participants to bring imagination to life through color, expression, and artistry. Whether you're transforming yourself or a partner into something magical, bold, or wildly unique, this event celebrates originality and pure artistic flair. 
+Step into a vibrant space where creativity meets skill, and every stroke tells a story. With no references allowed, this competition encourages free-hand design, pushing artists to rely on their talent, instinct, and innovative thinking. Join us for a fun-filled and visually stunning event that promises a burst of colors, creativity, and excitement. Mark your calendars and be part of this lively artistic experience! 
+`,
+    Si: `• Time Limit: 120 mins. 
+|• Participants must bring all their own products and painting materials. 
+|• Painting can be done either on themselves or on a partner. Editing allowed for basic adjustments only. 
+|• Judging will be based on originality, uniqueness, neatness, and creativity. 
+|• No reference images or videos are allowed during the event. 
+|• No assistance will be provided by coordinators or outsiders during the process. 
+|• Only free-hand painting is permitted; stencils or templates are not allowed.
+||• PARTICIPANT REQUIREMENTS: 
+| &nbsp;*&nbsp; Participants may compete individually or with a partner (as their model). 
+| &nbsp;*&nbsp; All participants must carry their own makeup/painting items and tools—none will be provided at the venue. 
+| &nbsp;*&nbsp; Participants must be physically present; no remote participation is allowed. 
+| &nbsp;*&nbsp; Each participant is responsible for ensuring their materials are safe for skin use. 
+`,
+    gi: `• Decision of the judges will be final and binding. 
+|• Participants are requested to report 30 mins before the event begins. 
+|• No refunds will be provided under any circumstances. 
+|• Any form of misconduct, external help, or use of references will lead to disqualification. `,
+    Rfee: 100,
+    pool: 1000,
+  },
+
+  {
+    id: 24,
+    TnL: "24 April 2026, 3:00 PM - 5:00 PM | Auditorium",
+    Abt: `Step into the spotlight where attitude speaks louder than words and every step becomes a statement. Rhythm Runway is your chance to showcase creativity, coordination, and unmatched stage presence. Form your team. Design your theme. Walk with purpose. From bold street swagger to royal elegance, this stage is yours to express, impress, and dominate.`,
+    Si: `• The Performance duration is 8minutes, with a 2 minute grace period.
+|• Alloutfitsmustbe stylish,elegant,andappropriate for a public
+audience.
+|• Participantsmustmaintain professionalism; any formof discrimination,
+offensive behaviour,or disrespect will lead to disqualification.
+|• Hazardous propssuch assharpobjects,flammablematerials,or any
+itemthat couldcause injury are strictly prohibited.
+|• Each teammust consist ofstudentsfromthe same college, witha
+teamsize between 6 to 12members.
+|• Teamsmustregister before the deadline to be eligiblefor
+participation.
+|• Music tracksforthe runwaywalkmustbesubmitted to the
+organisers atleasttwo days before the event.
+|• Each teamisresponsibleforarranging theirowncostumes,props,
+and accessories.
+
+|• Participantsmuststrictly follow the given time limits fortheirrunway walks.
+|• Lighting Requirements for the runway walk must be submitted
+in PDF form to the organisers at least two days before the
+event.`,
+    gi: `• The decision of the judges will be final and binding.
+|• Participants must report 3 hours before the event starts and must be
+ready 1 hour before their performance. Latecomers may not be allowed
+to participate.
+|• No refunds will be given under any circumstances.`,
+    Rfee: 1500,
+    pool: 9000,
+  },
+
+  {
+    id: 6,
+    TnL: "23 April 2026, 12:30 PM - 2:30 PM | Classroom",
+    Abt: `Step into the arena where appetite meets the clock. The Hog-a-
+thon is a high-intensity, solo-survival eating challenge designed
+
+for those with nerves of steel and an iron stomach. In this race
+against time, individuals must conquer a series of food-based
+"boss levels" to prove they have the speed, strategy, and capacity
+to be crowned the Ultimate Glutton.`,
+    Si: `|• Players must report to the venue at least 25–30 minutes
+before their assigned time slot.
+|• Listen carefully to the briefing instructions before
+entering the room.
+|• Do not interfere in another participant’s gameplay.
+|• Any form of cheating or rule violation will result in
+immediate disqualification.`,
+    gi: `• Absolute Compliance:
+All instructions from the Frontman and the Kitchen Guards are
+final. The signal to start must be obeyed instantly, and any eating
+before the whistle or after the timer stops will result in instant
+elimination.
+||• Solo Performance:
+This is a test of individual capacity. No physical contact or
+"sharing" of food is permitted. Any attempt to distract an
+opponent or sabotage their tray will lead to immediate
+disqualification of both parties.
+
+||• No External Tools:
+
+The use of personal utensils, outside beverages, or performance-
+enhancing "tools" (such as private water bottles or smartwatches
+
+to track pace) is strictly prohibited. You may only use what is
+provided at your station.
+||• Elimination (The "Clean Plate" Rule):
+A player is "eliminated" if they fail to finish their portion within
+the allotted time or if they violate the Rejection Protocol
+(vomiting or inability to keep food down). Once eliminated, the
+player must leave the table immediately—their journey to the
+Final Feast ends there.
+||• The "Mouth Empty" Check:
+A round is only considered complete once a player raises their
+hand and demonstrates an empty mouth to a Guard. Swallowing
+must be visible and verified before the clock is officially stopped
+for that individual.`,
+    Rfee: 200,
+    pool: 2000, 
+  },
+  
   {
     id: 14,
     TnL: "24 April 2026, 3:00 PM – 5:00 PM | RVITM, Auditorium",
@@ -193,15 +407,6 @@ var popDesc = [
     pool: 3000,
   },
   
-  {
-    id: 15,
-    TnL: "24 April 2026, 9:30 A, - 12:00 PM | Auditorium",
-    Abt: "Beatstorm is a live music showcase at Sambhram ’26 that brings together college bands for an evening centered around performance, creativity, and sound. Featuring a wide range of genres including rock, indie, metal, and fusion, the event highlights each band’s unique style, musicality, and stage presence. It is designed as a space where artists can present both original compositions and reinterpretations, creating a diverse and engaging listening experience. Set against a dynamic stage and a lively audience, Beatstorm focuses on the essence of live performance — energy, coordination, and connection. The event offers emerging musicians an opportunity to perform in a professional setup, interact with fellow artists, and leave a lasting impression through their music.",
-    Si: "• Team Size: 6-12 Members|• Participants must bring their own instruments.|• A 5-piece drum kit will be provided by the host college.|• In case of any special technical requirements, the event coordinators can be contacted.|• Open for all colleges, professional and semi-professional bands, but at least one member of the team must be currently pursuing their graduation|• Each participant is allowed to represent only one band.|• Songs with appropriate lyrics are to be chosen, and the lyrics sheet must be submitted prior to the performance for OCs.|• Time limit for the performance is 15 minutes, including setup, soundcheck, and clearance|• Only Indian languages and English songs can be performed.|• Originals will be given more weightage.|• Processed music and backing tracks are strictly not allowed.",
-    gi: "• The competition will be held in 1 round only.|• In case of special technical requirements for the instruments, event coordinators must be informed in advance.|• Participants are requested to report 2 hours before the commencement of the event.|• Judges’ decisions will be considered final and binding.",
-    Rfee: 1500,
-    pool: 9000,
-  },
 
   {
     id: 9,
@@ -396,7 +601,185 @@ commencement of the event.
 |• No refunds will be given under any circumstance.`,
     Rfee: 200,
     pool: 3000,
-  }
+  },
+
+  {
+    id: 16,
+    TnL: "24 April 2026, 12:30 PM - 2:30 PM | 6th Floor Seminar Hall",
+    Abt: `Experience the raw power of sound at our premier instrumental solo showcase, a
+vibrant stage where percussion powerhouses and melodic maestros collide in a
+brilliant display ofskill. This event redefines the listening experience by weaving a
+rich tapestry of Western innovation and Indian heritage, blending hypnotic
+traditional rhythms with soaring modern harmonies. Every performance is a
+masterclass in global fusion, stripping away the lyricsto let the universal language
+of pure music take centre stage. From the earth-shaking energy of the drums to the
+delicate, haunting resonance of the strings, prepare for a transcendent auditory
+journey that celebrates technical mastery and the unfiltered soul of the artist.`,
+    Si: `• Time Limit: 5 + 1 minutes(inclusive of setup, soundcheck, and clearance).
+|• A participant may only register once per category.
+|• Backing track (if needed) must be uploaded in a Google Drive provided by the
+organisers before the event
+|• Participants are responsible forstaying in contact with the organisers.
+|• The competition will be held in one round only.
+|• Participants must bring their instruments.
+|• Participants are responsible for their instruments.
+|• For any special technical requirements, participants may contact the event
+coordinators.`,
+    gi: `• The decision of the judges will be final and binding.
+|• Participants must report 1 hour before the eventstarts. Latecomers may not be
+allowed to participate.
+|• No refunds will be given under any circumstances.`,
+    Rfee: 200,
+    pool: 2500,
+  },
+
+  {
+    id: 17,
+    TnL: "23 April 2026, 9:00 AM - 6:00 PM | Auditorium",
+    Abt: `Welcome to Midnight Verdict 2026 – the overnight murder mystery event where nothing is as it seems.
+Step into a world of secrets, suspense, and unexpected betrayals as you take on the role of a detective in this high-stakes investigation. Your mission? Unravel a chilling mystery, piece together cryptic clues, interrogate elusive suspects, and expose the murderer—before it’s too late.
+With mind-bending twists, a spine-chilling atmosphere, and a race against time, Midnight Verdict 2026 is not just an event—it’s an experience. Every clue matters. Every decision shapes the outcome.
+Trust no one. Question everything.
+Are you ready to test your instincts, outsmart the killer, and crack the case before dawn? Assemble your team and step into the unknown. Because in this game, the truth won’t reveal itself—you have to hunt it down.
+One Night. One Mystery. One Killer.
+Do you have what it takes?`,
+    Si: `• Participants must treat all other attendees, event staff, and actors respectfully and courteously. Any form of harassment, discrimination, or inappropriate behaviour will not be tolerated and may result in immediate removal from the event.
+    |• Teams must rely solely on their skills and resources to solve the mystery. No outside assistance, including electronic devices or communication with individuals not participating in the event, is permitted.
+|• Participants must follow all instructions provided by the event organisers and staff. Failure to comply may result in disqualification or expulsion from the event.
+|• Participants must prioritise their safety and the safety of others at all times. Running, pushing, or engaging in any other unsafe behavior is strictly prohibited.
+|• Participants must handle all evidence and props provided with care. Tampering with or damaging evidence will result in penalties and may hinder the progress of the investigation.
+|• Teams will have a set amount of time to solve the mystery. The event will conclude at a predetermined time, and teams must submit their conclusions before the deadline.
+|• Participants must engage in fair play and refrain from cheating or engaging in any form of dishonesty. Any team found to be cheating will be disqualified from the event.
+|• Dinner will be provided for all participants.`,
+    gi: `• The decision of the judges will be final and binding.
+|• Participants must report 2 hours before the event starts. Latecomers may not be allowed to participate.
+|• No refunds will be given under any circumstances.
+`,
+    Rfee: 600,
+    pool: 5000
+  },
+
+  {
+    id: 18,
+    TnL: "23 - 24 April 2026, FULL DAY | RVITM",
+    Abt: `Step into Reflections, where every photograph becomes a mirror to your
+imagination. This event invites participants to explore the beauty of symmetry,
+light, perspective, and emotion through a single frame. From shimmering surfaces
+to everyday moments that reflect deeper meaning, your image should tell a story
+beyond what the eye sees.
+Your challenge is to capture a moment within the event time window that truly
+reflects your unique vision. Do you have what it takes to turn a simple reflection
+into art? Join us and let your lens speak.`,
+    Si: `• Each participantsubmits 5 campus photos.
+|• Photos must be taken on campus within a specified time frame.
+|• Theme will be revealed at the beginning of the event. All photos must
+adhere to the theme.
+|• Editing allowed for basic adjustments only.
+|• Heavy manipulation leads to disqualification.
+|• Participants must bring their own camera equipment.
+|• No specific camera type or brand isrequired.
+|• Submissions must be in digital format and should be submitted before
+the designated deadline.`,
+    gi: `• The decision ofthe judges will be final and binding.
+|• Participants mustreport 1 hour before the eventstarts. Latecomers may not be
+allowed to participate.
+|• No refunds will be given under any circumstances.`,
+    Rfee: 100,
+    pool: 1000
+  },
+
+  {
+    id: 10,
+    TnL: "24 April 2026, 12:30 PM - 2:30 PM | Drawing Room",
+    Abt: `The Roast Battle is a fast-paced verbal showdown where participants go head-to-head in a
+clash of wit, humor, and fearless comebacks. Celebrating quick thinking and sharp delivery,
+this event turns playful insults into pure entertainment. With every round, contestants aim to
+win over the crowd with their creativity, confidence, and unforgettable punchlines—blurring
+the line between savage humor and comedic brilliance.`,
+    Si: `The following rules and guidelines are established to ensure that the roast battle event
+remains entertaining, respectful, and enjoyable for all participants and the audience:
+|• Maintain Humor and Respect
+All remarks should be intended for humor and entertainment. Participants must avoid
+comments that are genuinely offensive, harmful, or insulting.
+|• Avoid Sensitive Topics
+Roasts must not include references to sensitive subjects such as religion, race,
+caste, disabilities, personal trauma, or family issues.
+|• Participation by Consent Only
+Only individuals who have willingly agreed to participate may be included in the roast
+battle.
+|• Adhere to Time Limits
+Each participant must strictly follow the allotted time to ensure fairness and smooth
+conduct of the event.
+|• No Physical or Threatening Behavior
+The roast battle is strictly a verbal activity. Any form of physical aggression,
+intimidation, or threatening behavior is prohibited.
+|• Respect Personal Boundaries
+Participants must be mindful of others’ comfort levels. If any remark causes
+discomfort, it should not be continued.
+|• Original Content Only
+All jokes and material presented should be original. Plagiarism or use of copied
+content is discouraged.
+|• Zero Tolerance for Hate Speech
+Any form of abusive, discriminatory, or hateful language will result in immediate
+disqualification.
+|• Display Sportsmanship
+Participants are expected to maintain professionalism and end the battle on a
+positive note, demonstrating mutual respect.
+|||Judging Criteria:
+|• Comebacks & Presence of Mind
+|Quick thinking and spontaneous responses
+|Sharp, witty, and impactful comebacks
+||•Bonus & Penalty System
+|Bonus points for exceptional humor and standout moments
+|Points may be deducted for rule violations or inappropriate content
+||•Judges’ Weightage
+|Judges’ scores carry more weight than audience voting
+|Final decision is primarily based on judges’ evaluation `,
+    Rfee: 150,
+    pool: 1500,
+  },
+
+  {
+    id: 8,
+    TnL: "23rd April 2026, 12:30 PM - 3:00 PM",
+    Abt: `Step into a world where stories come alive and puzzles guard the way forward.
+The Literary Escape Room is an immersive challenge that blends literature,
+logic, and teamwork. Teams will decode clues, unravel narraƟves, and solve
+book-inspired mysteries to “escape” within the given Ɵme.
+||
+This event celebrates creaƟvity, criƟcal thinking, and a love for literature—
+tesƟng not just what you know, but how you think. With the seconds counƟng
+down, will you find the missing ink before the final page is closed forever?
+ParƟcipate to find out!`,
+    Si: `• ParƟcipants must compete in teams (2–4 members per team).
+|• Each team will be placed in a themed escape room based on literary
+works, authors, or genres.
+|• The Ɵme limit per team is five minutes.
+|• Clues may involve:
+| &nbsp;*&nbsp; Riddles based on famous books/quotes
+| &nbsp;*&nbsp; Word puzzles, anagrams, or codes
+| &nbsp;*&nbsp; Logical reasoning linked to literary themes
+
+|• Mobile phones, books, or any form of external assistance are strictly
+prohibited.
+|• All clues and objects in the room must be handled carefully—no forceful
+acƟons (breaking, tearing, etc.).
+|• The team that solves the mystery and escapes in the shortest Ɵme with
+the correct soluƟon will be declared the winner. All parƟcipants must
+follow the rules set by the Organising CommiƩee, and any violaƟons may
+lead to penalƟes or disqualificaƟon.`,
+    gi: `|• Teams must report to the venue 2 hours before the event starts.
+|• Listen carefully to the briefing instrucƟons before entering the room.
+|• Respect the setup—this is a logic-based game, not a physical challenge.
+|• Do not interfere with another team’s gameplay.
+|• Any form of cheaƟng or rule violaƟon will result in immediate
+disqualificaƟon.
+|• No refunds will be given under any circumstances.`,
+    Rfee: 300,
+    pool: 2000 - 1000,
+  },
+
+
 
 ];
 
