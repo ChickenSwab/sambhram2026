@@ -256,9 +256,67 @@ share a screenshot of the total score with the coordinator||| PointSystem: |* 1s
     gi: "• Decision of the judges will be final and binding.|• Participants are requested to report 1 hour before the commencement of the event.|• No refunds will be given under any circumstance. ",
     Rfee: 200,
     pool: 2500,
-  }
+  },
 
-  
+  {
+    id: 22,
+    TnL: "23 April 2026, 3:00 PM - 5:00 PM | Drawing Room",
+    Abt: `Get ready to splash your creativity across the canvas of faces! Our Face Painting event invites participants to bring imagination to life through color, expression, and artistry. Whether you're transforming yourself or a partner into something magical, bold, or wildly unique, this event celebrates originality and pure artistic flair. 
+Step into a vibrant space where creativity meets skill, and every stroke tells a story. With no references allowed, this competition encourages free-hand design, pushing artists to rely on their talent, instinct, and innovative thinking. Join us for a fun-filled and visually stunning event that promises a burst of colors, creativity, and excitement. Mark your calendars and be part of this lively artistic experience! 
+`,
+    Si: `• Time Limit: 120 mins. 
+|• Participants must bring all their own products and painting materials. 
+|• Painting can be done either on themselves or on a partner. Editing allowed for basic adjustments only. 
+|• Judging will be based on originality, uniqueness, neatness, and creativity. 
+|• No reference images or videos are allowed during the event. 
+|• No assistance will be provided by coordinators or outsiders during the process. 
+|• Only free-hand painting is permitted; stencils or templates are not allowed.
+||• PARTICIPANT REQUIREMENTS: 
+| * Participants may compete individually or with a partner (as their model). 
+| * All participants must carry their own makeup/painting items and tools—none will be provided at the venue. 
+| * Participants must be physically present; no remote participation is allowed. 
+| * Each participant is responsible for ensuring their materials are safe for skin use. 
+`,
+    gi: `• Decision of the judges will be final and binding. 
+|• Participants are requested to report 30 mins before the event begins. 
+|• No refunds will be provided under any circumstances. 
+|• Any form of misconduct, external help, or use of references will lead to disqualification. `,
+    Rfee: 100,
+    pool: 1000,
+  },
+
+  {
+    id: 24,
+    TnL: "24 April 2026, 3:00 PM - 5:00 PM | Auditorium",
+    Abt: `Step into the spotlight where attitude speaks louder than words and every step becomes a statement. Rhythm Runway is your chance to showcase creativity, coordination, and unmatched stage presence. Form your team. Design your theme. Walk with purpose. From bold street swagger to royal elegance, this stage is yours to express, impress, and dominate.`,
+    Si: `• The Performance duration is 8minutes, with a 2 minute grace period.
+|• Alloutfitsmustbe stylish,elegant,andappropriate for a public
+audience.
+|• Participantsmustmaintain professionalism; any formof discrimination,
+offensive behaviour,or disrespect will lead to disqualification.
+|• Hazardous propssuch assharpobjects,flammablematerials,or any
+itemthat couldcause injury are strictly prohibited.
+|• Each teammust consist ofstudentsfromthe same college, witha
+teamsize between 6 to 12members.
+|• Teamsmustregister before the deadline to be eligiblefor
+participation.
+|• Music tracksforthe runwaywalkmustbesubmitted to the
+organisers atleasttwo days before the event.
+|• Each teamisresponsibleforarranging theirowncostumes,props,
+and accessories.
+
+|• Participantsmuststrictly follow the given time limits fortheirrunway walks.
+|• Lighting Requirements for the runway walk must be submitted
+in PDF form to the organisers at least two days before the
+event.`,
+    gi: `• The decision of the judges will be final and binding.
+|• Participants must report 3 hours before the event starts and must be
+ready 1 hour before their performance. Latecomers may not be allowed
+to participate.
+|• No refunds will be given under any circumstances.`,
+    Rfee: 1500,
+    pool: 9000,
+  },
 
 ];
 
