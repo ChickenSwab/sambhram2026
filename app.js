@@ -118,7 +118,7 @@ window.addEventListener("click", function(event) {
 
 //     if (inViewFlag) {
 //         document.getElementById("events").scrollIntoView({ 
-//             behavior: "smooth", 
+//             behavior: "smooth",  
 //             block: "start" 
 //         });
 //         inViewFlag = false;
