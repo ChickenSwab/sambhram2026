@@ -57,7 +57,7 @@ var cards = [
     img: "./img/euphony.png",
   },
   { id: 5, name: "Valorant", info: "Valorant", img: "./img/valo.png" },
-  { id: 6, name: "Hogathon", info: "Fiest-fiesta", img: "./img/hogathon.png" },
+  { id: 6, name: "Hogathon", info: "Food fiesta", img: "./img/hogathon.png" },
   { id: 7, name: "Shooting", info: "Shooting", img: "./img/shooting.png" },
   {
     id: 8,
