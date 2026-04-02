@@ -872,7 +872,7 @@ function openPopup(id) {
             </div>
 
 
-            <div class="button">registrations opening soon</div>
+            <a href="https://forms.gle/hKYmQgkSmRmXC92r5"><div class="button">Register for Events</div></a>
         `;
   } else {
     console.error("Data not found for ID:", id);
