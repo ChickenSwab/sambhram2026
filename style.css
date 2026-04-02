@@ -431,6 +431,16 @@ a:hover {
     cursor: pointer;
 }
 
+select {
+    all: unset;
+    background-color: #000;
+    cursor: pointer;
+    border: 1px solid rgb(83, 83, 83);
+    padding: 2px 5px 2px 5px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
 .inner-card:hover {
     opacity: 1;
     animation: unfadee 0.5s;
