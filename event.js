@@ -57,7 +57,7 @@ var cards = [
     img: "./img/euphony.png",
   },
   { id: 5, name: "Valorant", info: "Valorant", img: "./img/valo.png" },
-  { id: 6, name: "Hogathon", info: "Food fiesta", img: "./img/hogathon.png" },
+  { id: 6, name: "Hogathon", info: "Feast fiesta", img: "./img/hogathon.png" },
   { id: 7, name: "Shooting", info: "Shooting", img: "./img/shooting.png" },
   {
     id: 8,
@@ -66,7 +66,7 @@ var cards = [
     img: "./img/hiddenmanu.png",
   },
   { id: 9, name: "BGMI", info: "BGMI", img: "./img/bgmi.png" },
-  { id: 10, name: "Roast Riot", info: "Rap battle", img: "./img/rapbat.png" },
+  { id: 10, name: "Roast Riot", info: "Roast Battle", img: "./img/rapbat.png" },
   { id: 11, name: "Fifa", info: "Fifa", img: "./img/fifa.png" },
   {
     id: 12,
@@ -133,7 +133,7 @@ change the game. |
 This isn’t just an auction on — it’s a test of leadership, teamwork, and cricketing
 intelligence. Get ready to outbid and outplay your rivals in a fast paced
 showdown where only the smartest team walks away victorious.`,
-    Si: `Team Requirements:- |• Each team must consist of 5 players.
+    Si: `Team Requirements:- |• Each team must consist of 1-5 player/players.
 |• A team leader must be designated for each team. The team leader will serve
 as the point of contact for communication on between the organizing
 committee and the team.
