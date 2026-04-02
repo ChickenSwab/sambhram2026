@@ -359,16 +359,8 @@ event.
   {
     id: 7,
     TnL: "24th April 2026, 8:00 AM - 6:00 PM | Basement",
-    Abt: `Step up, take aim, and feel the rush. Shooting, one of the most anticipated events at
-Sambhram, RVITM's flagship fest, puts you behind the sights of a 10-meter range and
-challenges you to find your focus under pressure. It doesn't matter if you've never held a gun
-before or if you're a seasoned marksman — this is your chance to test your nerves, sharpen
-your concentration, and discover what you're made of. With a professional setup designed
-for both safety and excitement, Shooting promises an experience that's equal parts intense
-and unforgettable.`,
-    Si: `• Format: Each participant gets a fixed number of shots per round. The number of rounds
-(prelims, semis, finals) will be determined based on total participation and the Range
-Officer's discretion.
+    Abt: `Step up, take aim, and feel the rush. Shooting, one of the most anticipated events at Sambhram, RVITM's flagship fest, puts you behind the sights of a 10-meter range and challenges you to find your focus under pressure. It doesn't matter if you've never held a gun before or if you're a seasoned marksman. This is your chance to test your nerves, sharpen your concentration, and discover what you're made of. Hosted by NCC RVITM and sponsored by Golden Ace Sports Shooting Academy, this event brings a professional setup designed for both safety and excitement, promising an experience that's equal parts intense and unforgettable.`,
+    Si: `• Format: Each participant gets 10 shots and 10 minutes to complete all shots.
 ||• Scoring: Target sheets are scored out of 100 based on standard 10-meter air rifle scoring
 rings. The score of each shot is determined by whichever ring the pellet lands on, and all
 shots are cumulated for a final score. Participants are ranked on a live leaderboard based on
